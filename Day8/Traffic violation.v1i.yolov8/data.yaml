@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['car', 'scooty', 'traffic signal', 'truck']
+
+roboflow:
+  workspace: ajays-workspace-ijor1
+  project: traffic-violation-lau58
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ajays-workspace-ijor1/traffic-violation-lau58/dataset/1
